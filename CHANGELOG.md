@@ -1,5 +1,9 @@
+## 2.0.0 **Backwards Incompatibility**
+- Please update your sign function if you use this version. sign now [required parameter name](https://github.com/anicdh/bitcoin_flutter/blob/master/lib/src/transaction_builder.dart#L121)
+- Support  building a Transaction with a SegWit P2WPKH input
+- Add Address.validateAddress to validate address
 
-## master
+## 1.1.0
 
 - Add PaymentData, P2PKHData to be deprecated, will remove next version
 - Support p2wpkh
